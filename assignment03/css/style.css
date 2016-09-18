@@ -1,0 +1,142 @@
+/* colors from colorbrewer2.org
+Body background: #e7e1ef
+Top banner background: #dd1c77
+Top banner text color: #ffffff
+nav bar background: #c994c7
+*/
+
+/****************************/
+/*resets and global styling */
+/****************************/
+/* reset info at http://cssreset.com/scripts/eric-meyer-reset-css/ */
+html, body {
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: 0;    /* I can change the margin mannually */
+    padding: 0;
+    vertical-align: baseline;
+}
+
+body {
+    background-color: #e7e1ef;
+    font-family: Ovo, serif;
+    font-size: 0.9em;
+}
+
+h1 {
+    font-family: Muli, sans-serif;
+}
+
+p {
+    font-size: 125%;
+}
+
+/*code {
+    font-family: Courier, monospace;  /*needed for Chrome  */
+/*}*/
+
+table {
+    border-collapse:collapse;
+    border-spacing: 0;
+    font-family: Muli, sans-serif;
+    margin: 0px auto;
+}
+
+tr td:first-child {
+    padding-right: 2em;
+}
+
+td {
+    padding: 0.5em;
+}
+
+caption {
+    caption-side: bottom;
+    margin-top: 0.25em;
+    margin-bottom: 0.5em;
+    font-size: 100%;
+}
+
+/*********************
+/* styling by section 
+/**********************/
+
+#banner {
+    background-color: #dd1c77;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#banner > h1 {
+    /*border: solid 1px white; */
+    font-family: Ovo, serif;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    text-align: center
+}
+
+#nav_bar {
+/*    border-bottom: solid 2px #fdae61;*/
+    font-family: Muli, sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1em;
+    max-width: 960px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: #c994c7;
+    width: 100%;
+}
+
+#span_first {
+    margin-left: 5em;
+    margin-right: 9em;
+}
+
+#span_middle {
+    margin-left: 9em;
+    margin-right: 9em;
+}
+
+#span_last {
+    margin-left: 9em;
+    margin-right: 5em;
+}
+
+#container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+#content {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+}
+
+#image { 
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#text { 
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*.cover {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.cover > caption {
+    caption-side: bottom;
+}*/
