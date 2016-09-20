@@ -13,7 +13,7 @@ html, body {
     border: 0;
     font: inherit;
     font-size: 100%;
-    margin: 0;    /* I can change the margin mannually */
+    margin: 0;   
     padding: 0;
     vertical-align: baseline;
 }
@@ -32,30 +32,22 @@ p {
     font-size: 125%;
 }
 
-/*code {
-    font-family: Courier, monospace;  /*needed for Chrome  */
-/*}*/
+#cover_image {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
 
-table {
-    border-collapse:collapse;
-    border-spacing: 0;
+#cover_image > img {
+    display: block;
+    margin: auto;
+}
+
+.caption {
     font-family: Muli, sans-serif;
-    margin: 0px auto;
-}
-
-tr td:first-child {
-    padding-right: 2em;
-}
-
-td {
-    padding: 0.5em;
-}
-
-caption {
-    caption-side: bottom;
-    margin-top: 0.25em;
-    margin-bottom: 0.5em;
-    font-size: 100%;
+    text-align: center;
+    width: 100%;
 }
 
 /*********************
@@ -112,13 +104,11 @@ caption {
 }
 
 #container {
-    margin-right: auto;
-    margin-left: auto;
+    margin: auto;
     width: 100%;
 }
 #content {
-    margin-right: auto;
-    margin-left: auto;
+    margin: auto;
     max-width: 960px;
 }
 
@@ -131,12 +121,3 @@ caption {
     margin-right: auto;
     margin-left: auto;
 }
-
-/*.cover {
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.cover > caption {
-    caption-side: bottom;
-}*/
