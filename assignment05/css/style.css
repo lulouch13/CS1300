@@ -1,0 +1,194 @@
+
+/****************************/
+/*resets and global styling */
+/****************************/
+/* reset info at http://cssreset.com/scripts/eric-meyer-reset-css/ */
+html, body {
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+body {
+    background-color: #efefef;
+    font-family: Ovo, serif;
+    font-size: 1.2em;
+}
+
+h1, h2 {
+    font-family: Muli, sans-serif;
+}
+
+/****************************/
+/* styling by section       */
+/****************************/
+
+#nav_bar {
+    background-color: #dd1c77;
+    color: #ffffff;
+    font-family: Muli, sans-serif;
+    font-size: 1.25em;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+#nav_bar > span:first-child {
+    margin-left: 1.5em;
+}
+
+#nav_bar > span {
+    margin-right: 1em;
+}
+
+#banner_text {
+    display: none;
+    margin: 0 auto;
+    margin-top: 6em;
+    position: relative;
+    width: 100%;
+    z-index: 0;
+}
+
+#banner_text h1, h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#container {
+    /* border: solid 1px red; */
+    margin: 0 auto;
+    max-width: 1300px;
+}
+
+#content {
+    /* border: solid 1px #dedede; */
+    background-color: #ffffff;
+    float: left;
+    margin-top: 2em;
+     margin-right: auto; 
+    margin-left: 2.5em;
+    width: 74%;
+    padding: 0.5em; 
+}
+
+
+#banner {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+#banner > img {
+    width: 100%;
+}
+
+/****************************/
+/* media queries            */
+/****************************/
+
+@media screen and (min-width: 1200px){
+    #content {
+        max-width: 1200px;
+        font-size: 1.2em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 6em;
+        margin-right: 6em;
+    }
+
+    #banner_text {
+        display: block;
+        margin-left: 6em;
+        margin-right: auto;
+        font-size: 100%;
+    }
+
+    #banner > img {
+        max-width: 1200px;
+    }
+    
+}
+
+@media screen and (max-width: 1200px) and (min-width: 768px){
+    #content {
+        max-width: 768px;
+        font-size: 1.2em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 5em;
+        margin-right: 5em;
+    }
+
+    #banner_text {
+        display: block;
+        margin-left: 5em;
+        font-size: 90%
+    }
+
+    #banner > img {
+        max-width: 768px;
+        min-width: 600px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) and (min-width: 480px) {
+    #content {
+        max-width: 480px;
+        font-size: 1.0em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 5em;
+        margin-right: 5em;
+    }
+
+    #banner_text {
+        display: block;
+        margin-left: 5em;
+        font-size: 80%;
+    }
+
+    #banner > img {
+        max-width: 480px;
+        min-width: 300px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #nav_bar > span:first-child {
+        margin-left: 0em;
+    }
+    
+    #banner > img {
+        display: none;
+    }
+    
+    #content {
+        max-width: 480px;
+        font-size: 0.8em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 2.5em;
+        margin-right: 2.5em;
+    }
+    
+    #banner_text {
+        display: block;
+        font-size: 70%;
+        margin-left: 2.5em;
+    }
+}
+
+    
+    
+    
