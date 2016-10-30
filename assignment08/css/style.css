@@ -1,0 +1,200 @@
+/* colors from colorbrewer2.org
+Body background: #e7e1ef
+Top banner background: #dd1c77
+Top banner text color: #ffffff
+nav bar background: #e7e1ef
+bottom length: 5em;
+*/
+
+/****************************/
+/*resets and global styling */
+/****************************/
+/* reset info at http://cssreset.com/scripts/eric-meyer-reset-css/ */
+html, body {
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: 0;   
+    padding: 0;
+    vertical-align: baseline;
+}
+
+body {
+    background-color: #e7e1ef;
+    font-family: Ovo, serif;
+    font-size: 1.0em;
+}
+
+h1 {
+    font-family: Muli, sans-serif;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 100%;
+}
+
+.image_box {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+.image_box > img {
+    display: block;
+    margin: auto;
+}
+
+.caption {
+    font-family: Muli, sans-serif;
+    text-align: center;
+    width: 100%;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing: 0;
+    font-family: Muli, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.0em;
+    margin-bottom: 1.5em;
+    height: 10em;
+}
+
+tr td:first-child {
+    padding-right: 3em;
+}
+
+tr td:not(:first-child) {
+    border-bottom: solid 1px #abd9e9;
+    padding-right: 3em;
+    padding-left: 3em;
+    text-align: center;
+}
+
+th {
+    border-bottom: solid 3px #2c7bb6;
+    padding-right: 3em;
+    padding-left: 3em; 
+}
+
+td {
+    padding: 1em;
+}
+
+caption {
+    caption-side: bottom;
+    font-size: 0.9em; 
+    margin-top: 1em;
+}
+
+/*.byline {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+*/
+/* code adapted from http://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header */
+/*.anchor {
+    display: block;
+    position: relative;
+    top: -7em;
+    visibility: hidden;
+}*/
+
+/*********************
+/* styling by section 
+/**********************/
+#sticky_header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 7em;
+}
+
+#banner {
+    background-color: #dd1c77;
+    color: #ffffff;
+    width: 100%;
+    height: 4em;
+}
+
+#banner > h1 {
+    /*border: solid 1px white; */
+    font-family: Ovo, serif;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    max-width: 960px;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    text-align: center
+}
+
+#nav_bar {
+/*    border-bottom: solid 2px #fdae61;*/
+    font-family: Muli, sans-serif;
+    background-color: #e7e1ef;
+    border-bottom: solid 2px #c994c7;
+    margin-right: auto;
+    margin-left: auto;
+    /*margin-top: 0.5em;*/
+    margin-bottom: 0.5em;
+    max-width: 960px;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    width: 100%;
+    height: 2em;
+}
+
+#span_first {
+    margin-left: 5em;
+    margin-right: 9em;
+}
+
+#span_middle {
+    margin-left: 9em;
+    margin-right: 9em;
+}
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10em;
+    margin-bottom: 5em;
+    width: 100%;
+}
+#content {
+    margin: auto;
+    width: 960px;
+}
+
+#discription {
+    float: left;
+    width: 18%;
+}
+
+#center {
+    display: inline-block;
+    width: 80%;
+}
+
+#image { 
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#text { 
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#main_content {
+    margin-right: auto;
+    margin-left: auto;
+}
