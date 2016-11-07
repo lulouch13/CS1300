@@ -1,0 +1,12 @@
+/* All of YOUR styles go here. They take effect after those in the normalize CSS file, but will overwrite anything that conflicts. */
+dl {
+	margin-bottom: 1em;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	padding-bottom: 1em;
+}
