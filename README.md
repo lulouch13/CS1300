@@ -1,5 +1,6 @@
 # cs1300
 These are web development course projects.
+
 assignment01: HTML basics
 assignment02: advanced HTML
 assignment03: CSS basics
